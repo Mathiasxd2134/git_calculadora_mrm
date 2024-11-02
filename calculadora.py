@@ -44,9 +44,9 @@ def main():
         b = float(input("Ingresa el segundo número: "))
 
     if opcion == 1:
-        print("Resultado de la suma es:", suma(a, b))
+        print("Resultado:", suma(a, b))
     elif opcion == 2:
-        print("Resultado:", resta(a, b))
+        print("Resultado de la resta es:", resta(a, b))
     elif opcion == 3:
         print("Resultado:", multiplicacion(a, b))
     elif opcion == 4:
