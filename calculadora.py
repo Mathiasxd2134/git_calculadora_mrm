@@ -44,13 +44,13 @@ def main():
         b = float(input("Ingresa el segundo número: "))
 
     if opcion == 1:
-        print("La suma es:", suma(a, b))
+        print("Resultado:", suma(a, b))
     elif opcion == 2:
         print("Resultado:", resta(a, b))
     elif opcion == 3:
-        print("Resultado de la multiplicación es:", multiplicacion(a, b))
+        print("Resultado al multiplicar es:", multiplicacion(a, b))
     elif opcion == 4:
-        print("Resultado:", division(a, b))
+        print("Resultado de la división es:", division(a, b))
     elif opcion == 5:
         print("Resultado:", potencia(a, b))
     elif opcion == 6:
